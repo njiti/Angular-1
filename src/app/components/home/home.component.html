@@ -1,0 +1,23 @@
+
+
+
+<table class="table table-dark">
+    <thead>
+      <tr>
+        <th scope="col">country</th>
+        <th scope="col">First</th>
+        <th scope="col">Last</th>
+        <th scope="col">Handle</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor = "let list of listMovies">
+        <th scope="row">{{list.country}}</th>
+        <td>{{list.name}}</td>
+        <td>{{list.domains}}</td>
+        <td>{{list.alpha_two_code}}</td>
+        
+      </tr>
+      
+    </tbody>
+  </table>
